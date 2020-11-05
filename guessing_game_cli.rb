@@ -14,7 +14,7 @@ user_input = gets.chomp
 if user_input == number
   return "You guessed the correct number!"
 elsif user_input != number
-  return "Sorry! The computer guessed #{number}."
+  puts "Sorry! The computer guessed #{number}."
 elsif user_input == "exit"
   return "Goodbye!"
 
