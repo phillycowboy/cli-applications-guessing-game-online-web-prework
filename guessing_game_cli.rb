@@ -12,7 +12,7 @@ user_input = gets.to_i
 
 # compare that input to the random number that has been generated
 if user_input == number
-  puts You guessed the correct number!
+  puts "You guessed the correct number!"
 elsif user_input != number
   puts "Sorry! The computer guessed #{number}."
 elsif user_input == "exit"
