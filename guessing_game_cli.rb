@@ -12,11 +12,11 @@ user_input = gets.chomp
 
 # compare that input to the random number that has been generated
 if user_input == number
-  return "You guessed the correct number!"
+  puts "You guessed the correct number!"
 elsif user_input != number
   puts "Sorry! The computer guessed #{number}."
 elsif user_input == "exit"
-  return "Goodbye!"
+  puts "Goodbye!"
 
   # Print out one of three statements
 
