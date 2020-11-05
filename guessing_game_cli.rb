@@ -14,7 +14,7 @@ user_input = gets.
 if user_input == number
   puts "You guessed the correct number!"
 elsif user_input != number
-  return "Sorry! The computer guessed" #{number}
+  puts "Sorry! The computer guessed" #{number}
 else user_input == "exit"
   puts "Goodbye!"
   # Print out one of three statements
