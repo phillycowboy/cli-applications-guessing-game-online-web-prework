@@ -23,6 +23,6 @@ else
 # -if the users input matches th random number :"You guessed the correct number"
 # -if the users input DOES NOT match the random number: "Sorry! The computer guessed <number>."
 # if the users input is equal to "exit":"Goodbye!"
-  end
+
  end
 end
