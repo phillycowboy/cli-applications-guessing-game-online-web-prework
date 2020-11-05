@@ -15,7 +15,7 @@ if user_input == "exit"
   puts "Goodbye!"
 elsif user_input != number
   puts "Sorry! The computer guessed #{number}."
-elsif user_input.to_i == number
+elsif user_input == number
   puts "You guessed the correct number!"
 
   # Print out one of three statements
