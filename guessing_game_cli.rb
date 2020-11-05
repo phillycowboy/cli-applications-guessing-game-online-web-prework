@@ -12,7 +12,7 @@ user_input = gets.chomp
 
 # compare that input to the random number that has been generated
 if user_input == "exit"
-  puts "You guessed the correct number!"
+  puts "Goodbye!"
 elsif user_input.to_i != number
   puts "Sorry! The computer guessed #{number}."
 elsif user_input.to_i == number
