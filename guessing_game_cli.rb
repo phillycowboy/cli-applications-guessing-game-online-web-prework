@@ -16,7 +16,7 @@ if user_input == number
 if user_input != number
   return "Sorry! The computer guessed" #{number}
 elsif user_input == "exit"
-  puts Goodbye!
+  puts "Goodbye!"
   # Print out one of three statements
 
 # -if the users input matches th random number :"You guessed the correct number"
