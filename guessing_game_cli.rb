@@ -9,10 +9,10 @@ def run_guessing_game
 # Capture user input from the command line
 
 
-# compare that input to the random number that has been generated 
+# compare that input to the random number that has been generated
 
 
-# Print out one of three statements 
+# Print out one of three statements
 
 # -if the users input matches th random number :"You guessed the correct number"
 # -if the users input DOES NOT match the random number: "Sorry! The computer guessed <number>."
@@ -25,7 +25,3 @@ def run_guessing_game
 
 
 end
-
-
-
-
