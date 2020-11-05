@@ -17,6 +17,8 @@ elsif user_input != number
   puts "Sorry! The computer guessed #{number}."
 elsif user_input == "exit"
   puts "Goodbye!"
+else
+  puts "Invalid command"
   # Print out one of three statements
 
 # -if the users input matches th random number :"You guessed the correct number"
