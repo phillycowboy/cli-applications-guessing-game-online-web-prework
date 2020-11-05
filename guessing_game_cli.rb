@@ -12,9 +12,9 @@ user_input = gets.chomp
 # compare that input to the random number that has been generated
 if user_input == rand
   puts "You guessed the correct number!"
-elsif user_input != rand 
-  puts "Sorry! The computer guessed #{number}" 
-  
+elsif user_input != rand
+  puts "Sorry! The computer guessed #{number}"
+
 
 # Print out one of three statements
 
