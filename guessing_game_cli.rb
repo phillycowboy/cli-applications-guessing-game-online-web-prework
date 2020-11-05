@@ -11,9 +11,9 @@ number = rand(1...6)
 user_input = gets.chomp
 
 # compare that input to the random number that has been generated
-if user_input.to_i == number
+if user_input == number
   puts "You guessed the correct number!"
-elsif user_input.to_i != number
+elsif user_input != number
   puts "Sorry! The computer guessed #{number}."
 elsif user_input == "exit"
   puts "Goodbye!"
