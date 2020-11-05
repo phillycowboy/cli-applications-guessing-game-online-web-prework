@@ -15,7 +15,7 @@ if user_input == number
 elsif user_input != number
   puts "Sorry! The computer guessed #{number}"
 else user_input == "exit"
-  puts "Goodbye!"
+  puts "/Goodbye!/"
 
 
 
