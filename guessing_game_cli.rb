@@ -14,6 +14,9 @@ if user_input == rand
   puts "You guessed the correct number!"
 elsif user_input != rand
   puts "Sorry! The computer guessed #{number}"
+elsif user_input == "exit"
+  puts "Goodbye!"
+  
 
 
 # Print out one of three statements
