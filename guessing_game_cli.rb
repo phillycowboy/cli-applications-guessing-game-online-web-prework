@@ -12,9 +12,9 @@ user_input = gets.
 
 # compare that input to the random number that has been generated
 if user_input == number
-  return You guessed the correct number!
+  return "You guessed the correct number!"
 if user_input != number
-  return Sorry! The computer guessed #{number}
+  return "Sorry! The computer guessed" #{number}
 elsif user_input == "exit"
   puts Goodbye!
   # Print out one of three statements
