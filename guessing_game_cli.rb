@@ -5,7 +5,7 @@ puts "Guess a number between 1 and 6"
 number = rand(1...6)
 
 # Prompts user to guess their own number between 1 and 6
-puts "Guess a number between 1 and 6"
+# puts "Guess a number between 1 and 6"
 
 # Capture user input from the command line
 user_input = gets
