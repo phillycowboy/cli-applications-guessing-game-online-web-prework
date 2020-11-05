@@ -16,7 +16,7 @@ if user_input.to_i == number
 elsif user_input.to_i != number
   puts "Sorry! The computer guessed #{number}."
 elsif user_input == "exit"
-  puts "Goodbye!"
+  puts /Goodbye!/
 
   # Print out one of three statements
 
