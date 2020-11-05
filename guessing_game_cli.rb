@@ -10,7 +10,8 @@ puts "Guess a number between 1 and 6"
 user_input = gets.chomp
 
 # compare that input to the random number that has been generated
-
+if user_input == rand
+  puts "You guessed the correct number!"
 
 # Print out one of three statements
 
