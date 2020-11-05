@@ -8,15 +8,15 @@ number = rand(1...6)
 # puts "Guess a number between 1 and 6"
 
 # Capture user input from the command line
-user_input = gets
+user_input = gets.
 
 # compare that input to the random number that has been generated
 if user_input == number
-  return "You guessed the correct number!"
+  return You guessed the correct number!
 elsif user_input != number
-  return "Sorry! The computer guessed #{number}"
-elsif user_input == "exit"
-  puts "Goodbye!"
+  return Sorry! The computer guessed #{number}
+elsif user_input == exit
+  puts Goodbye!
   # Print out one of three statements
 
 # -if the users input matches th random number :"You guessed the correct number"
